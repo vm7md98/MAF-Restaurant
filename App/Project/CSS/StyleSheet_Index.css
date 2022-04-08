@@ -1,0 +1,62 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(img2/Restaurant-Background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.Title {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+}
+
+.Name {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.button1 {
+    width: 150px;
+    background-color: #ff9d76;
+    padding: 20px;
+    border-radius: 40px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+    .button1:hover {
+        background: rgba(0,0,0,.8);
+        /*it will slow the hover*/
+        transition: 0.5s; /*time*/
+        border-radius: 40px; /*carve*/
+    }
+
+h1 {
+    color: #003f5c;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+hr {
+    border: solid #004445 6px;
+    border-bottom: none;
+    width: 70%;
+    margin: 50px auto;
+    position: relative;
+}
+
+p {
+    color: #222831;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}

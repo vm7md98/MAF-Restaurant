@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+  <items>
+  
+    <item>
+      <itemid>3</itemid>
+      <itemname>Sushi</itemname>
+      <coverphoto>sushi.jpg</coverphoto>
+      <price>125</price>
+      <categoryid>1</categoryid>
+    </item>
+    
+	<item>
+      <itemid>4</itemid>
+      <itemname>Noddle</itemname>
+      <coverphoto>Noddle.jpg</coverphoto>
+      <price>30</price>
+      <categoryid>6</categoryid>
+    </item>
+	
+	 <item>
+      <itemid>5</itemid>
+      <itemname>Pizza</itemname>
+      <coverphoto>Pizza.jpg</coverphoto>
+      <price>65</price>
+      <categoryid>2</categoryid>
+    </item>
+	
+	<item>
+      <itemid>6</itemid>
+      <itemname>Pasta</itemname>
+      <coverphoto>Pasta.jpg</coverphoto>
+      <price>95</price>
+      <categoryid>2</categoryid>
+    </item>
+	
+	<item>
+	 <itemid> 12</itemid>
+        <itemname>Croissant</itemname>
+		<coverphoto>croissant.jpg</coverphoto>
+		<price> 9</price>
+		<categoryid>7</categoryid>
+	</item>
+	<item>
+		<itemid> 11</itemid>
+		<itemname>Bagel with Cheese</itemname>
+		<coverphoto>bagel-with-cheese.jpg</coverphoto>
+		<price> 18</price>
+		<categoryid>7</categoryid>
+	</item>
+	
+	<item>
+		<itemid> 10</itemid>
+		<itemname>Wasabi</itemname>
+		<coverphoto>Wasabi.jpg</coverphoto>
+		<price>40</price>
+		<categoryid>1</categoryid>
+	</item>
+	
+	<item>
+		<itemid>9</itemid>
+		<itemname>Burger</itemname>
+		<coverphoto>Burger.jpg</coverphoto>
+		<price> 35</price>
+		<categoryid>5</categoryid>
+	</item>
+	
+	<item>
+		<itemid>8</itemid>
+		<itemname>Steak</itemname>
+		<coverphoto>Steak.jpg</coverphoto>
+		<price>180</price>
+		<categoryid>4</categoryid>
+	</item>
+	
+	<item>
+		<itemid> 7</itemid>
+		<itemname>Hummus</itemname>
+		<coverphoto>Hummus.jpg</coverphoto>
+		<price>15</price>
+		<categoryid>3</categoryid>
+	</item>
+
+  </items>
+</catalog>

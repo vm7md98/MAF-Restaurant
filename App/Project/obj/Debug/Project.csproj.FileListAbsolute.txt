@@ -1,0 +1,4 @@
+J:\Files\HCT\Semester 7\Data Driven Web Technologies\Project v2\App\Project_v1\obj\Debug\Project.csproj.AssemblyReference.cache
+J:\Files\HCT\Semester 7\Data Driven Web Technologies\Project v2\App\Project_v1\obj\Debug\Project.csproj.CoreCompileInputs.cache
+J:\Files\HCT\Semester 7\Data Driven Web Technologies\Project v2\App\Project_v1\obj\Debug\Project_v1.dll
+J:\Files\HCT\Semester 7\Data Driven Web Technologies\Project v2\App\Project_v1\obj\Debug\Project_v1.pdb

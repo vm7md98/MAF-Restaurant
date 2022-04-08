@@ -1,0 +1,85 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;/*To make the website like a box*/
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex; /* Big box*/
+    width: 100%;
+    margin: auto; /*delete it if it has 0 impact after you complete the website */
+    align-items: center;
+    background-color: #ffac8e;
+}
+
+.logo-container,
+.links,
+.end {
+    display: flex; /*To make each of them as box*/
+}
+
+.logo-container {
+    width: 15%; /*delete it if it has 0 impact after you complete the website */
+    padding-right: 30px; /*delete it if it has 0 impact after you complete the website */
+}
+
+.logo-name {
+    font-weight: 400; /*delete it if it has 0 impact after you complete the website */
+    padding-top: 1rem; /*padding-top: 18px;*/
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    flex: 1;
+}
+
+.links {
+    justify-content: space-around; /*Space between nav word*/
+    list-style: none; /*remove style */
+}
+
+.link {
+    border-radius: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #f88020;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px; /*padding: 9%;*/
+}
+    .link:hover {
+        background: rgba(0,0,0,.8);
+        transition: 0.5s;
+        border-radius: 40px;
+    }
+
+/*delet later*/
+.end {
+    width: 15%;
+    justify-content: flex-end;
+}
+
+.log {
+    padding: 5px;
+}
+
+footer {
+    height: 6vh;
+    padding: 20px;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#font-fotter {
+    font-size: 20px;
+    color: white;
+}

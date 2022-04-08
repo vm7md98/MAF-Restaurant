@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="Project_v1.Template" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <!-- Title-->
+        <title>MAF Resturant</title>
+        <!--link-->
+        <link rel="stylesheet" href="CSS/StyleSheet_Master.css" />
+                <script type="text/javascript" src="JavaScript.js"></script>
+
+        <!--Head ContentPlaceHolder (for head in other .apsx)-->
+        <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    </head>
+    <body >
+        <!--I dont know-->
+        <form id="form1" runat="server">
+            <!--Header-->
+            <header>
+                <!--This class for logo and name  -->
+                <div class="logo-container">
+                    <!--Logo img-->
+                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Aspx/Index.aspx" ><asp:Image ID="Image1" runat="server" AlternateText="Logo" Height="50px" ImageUrl="/Images/img/img2.png" /></asp:HyperLink> 
+                     <!--Logo name-->                   
+                    <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Aspx/Index.aspx" CssClass="logo-name"><h4 >MAF Resturant</h4></asp:HyperLink> 
+                    
+                </div>
+                <nav>
+                    <ul class="links">
+                        <li>
+                            <asp:HyperLink ID="HyperLink1" runat="server" CssClass="link" NavigateUrl="~/Aspx/Index.aspx">Home</asp:HyperLink></li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink2" runat="server" CssClass="link" NavigateUrl="~/Aspx/Catalogue.aspx">Catalogue</asp:HyperLink></li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink3" runat="server" CssClass="link" NavigateUrl="~/Aspx//Galary.aspx">Gallery</asp:HyperLink></li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink10" runat="server" CssClass="link" NavigateUrl="~/Aspx/ItemByPrice.aspx">ItemByPrice</asp:HyperLink></li>
+                        <li>
+                            <asp:HyperLink ID="Admin" runat="server" CssClass="link" NavigateUrl="~/Admin.aspx" Visible="False">Admin</asp:HyperLink></li>
+                    </ul>
+                </nav>
+
+                <div class="end">
+                    <!--This class for sign,login and cart icon-->
+                    <div class="log">
+
+                        <asp:LoginView ID="LoginView1" runat="server">
+
+                            <AnonymousTemplate>
+                                 <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Aspx/SignUp.aspx" CssClass="link">Sign Up</asp:HyperLink>
+
+                            </AnonymousTemplate>
+
+                            <LoggedInTemplate>
+                                <asp:HyperLink ID="HyperLink41" runat="server" NavigateUrl="~/Aspx/AllMembers.aspx" CssClass="link">All User</asp:HyperLink>
+                            </LoggedInTemplate>
+
+                        </asp:LoginView>&nbsp&nbsp
+
+                        <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" LogoutPageUrl="~/Aspx/Index.aspx"/>
+
+
+                    </div>
+                    <asp:HyperLink ID="HyperLink8" runat="server" ><asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="/Images/img/cart-icon.png" /></asp:HyperLink>
+                </div>
+            </header>
+            <!--End heeader-->
+
+            <!--Content ContentPlaceHolder-->
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+            <!--Footer-->
+            <footer>
+                <p id="font-fotter">MAF Resturant, Copyright &copy; 2021</p>
+            </footer>
+        </form>
+    </body>
+</html>
